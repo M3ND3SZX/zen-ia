@@ -1,0 +1,81 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+background: rgb(104,12,176);
+background: linear-gradient(90deg rgba(104,12,176,1) 0%, rgba(83,9,141,1) 35%, rgba(44,5,74,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1044px;
+    height: 685px;
+    background-color: #A790FF;
+    border-radius: 50px;
+    gap: 16px;
+   
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    
+}
+
+.logar {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    line-height: 40px;
+   }
+
+   input:focus {
+outline: none;  
+ }
+
+ ::placeholder{
+     color: #D2CCCC;
+ }
+ button{
+     width: 160px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+ }
+
+ h4{
+     color: #680CB0;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+font-size: 15px;
+
+ }

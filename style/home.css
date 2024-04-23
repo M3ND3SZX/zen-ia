@@ -1,0 +1,21 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+background: rgb(104,12,176);
+background: linear-gradient(90deg rgba(104,12,176,1) 0%, rgba(83,9,141,1) 35%, rgba(44,5,74,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.IA{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+}
