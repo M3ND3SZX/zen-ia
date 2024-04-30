@@ -6,11 +6,40 @@
 body{
 background: rgb(104,12,176);
 background: linear-gradient(90deg rgba(104,12,176,1) 0%, rgba(83,9,141,1) 35%, rgba(44,5,74,1) 100%);
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+
 }
+
+
+header{
+    padding: 20px;
+}
+
+
+main{
+    margin-top: 100px;
+}
+
+.voltar{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: max-content;
+
+}
+
+.voltar:hover{
+    cursor: pointer;
+}
+
+#seta{
+    height: 30px;
+}
+
+
 
 .IA{
     display: flex;
@@ -18,4 +47,82 @@ height: 100vh;
     align-items: center;
     width: 100vw;
 
+}
+
+
+textarea{
+    background: rgb(104,12,176);
+    border-radius: 10px;
+    border: #D6CFF1  2px solid;
+    text-decoration: none;
+    width: 516px;
+    height: 460px;
+    color: #FFFFFF;
+    padding: 30px;
+    
+}
+
+textarea::placeholder{
+    color: white;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 14px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.usuario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+
+input{
+    padding-left: 30px;
+}
+
+
+
+    
+#perguntaHumanos{
+    width: 1000px;
+    height: 60px;
+    background-color: #D6CFF1;
+    border-radius: 30px;
+    border: none;
+
+}
+
+#perguntaHumanos::placeholder{
+
+    padding-left: 30px ;
+    color: #FFFFFF;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #FFFFFF;
+    background-color: #D6CFF1;
+    border-radius: 10px;
+
+
+  
+
+}
+button:hover{
+    cursor: pointer;
 }
